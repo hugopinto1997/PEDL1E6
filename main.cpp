@@ -4,11 +4,10 @@ using namespace std;
 int tam;
 
 void invertir(char *puntero){
-    while(tam>=0){
-        cout<<*(puntero+tam);
+    while(tam>=0) {
+        cout << *(puntero + tam);
         tam--;
     }
-    cout<<endl<<(puntero);
 }
 
 int main() {
